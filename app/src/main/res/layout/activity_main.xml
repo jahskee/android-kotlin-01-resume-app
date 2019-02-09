@@ -14,19 +14,22 @@
             android:textStyle="bold" android:textSize="30sp" android:textColor="@android:color/holo_blue_dark"/>
     <ImageView
             android:layout_width="match_parent"
-            android:layout_height="236dp" app:srcCompat="@android:color/holo_green_dark"
-            android:id="@+id/imageView"/>
+            android:layout_height="236dp" app:srcCompat="@drawable/jahskee"
+            android:id="@+id/imageView" android:scaleType="fitCenter"/>
     <Button
             android:text="Work History"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/button" android:layout_marginTop="10dp"/>
+            android:layout_height="wrap_content" android:id="@+id/button" android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp" android:layout_marginRight="40dp"/>
     <Button
             android:text="Call"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/button2" android:layout_marginTop="10dp"/>
+            android:layout_height="wrap_content" android:id="@+id/button2" android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp" android:layout_marginRight="40dp"/>
     <Button
             android:text="Image"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/button3" android:layout_marginTop="10dp"/>
+            android:layout_height="wrap_content" android:id="@+id/button3" android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp" android:layout_marginRight="40dp"/>
 
 </LinearLayout>
