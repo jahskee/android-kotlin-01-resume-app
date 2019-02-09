@@ -19,15 +19,15 @@
     <Button
             android:text="Work History"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/button" android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" android:id="@+id/workHistoryBtn" android:layout_marginTop="10dp"
             android:layout_marginLeft="40dp" android:layout_marginRight="40dp"/>
     <Button
-            android:text="Call"
+            android:text="Call Jaizon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/button2" android:layout_marginTop="10dp"
             android:layout_marginLeft="40dp" android:layout_marginRight="40dp"/>
     <Button
-            android:text="Image"
+            android:text="Email Jaizon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/button3" android:layout_marginTop="10dp"
             android:layout_marginLeft="40dp" android:layout_marginRight="40dp"/>
